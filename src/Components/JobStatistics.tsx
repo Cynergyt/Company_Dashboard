@@ -18,8 +18,10 @@ function JobStatistics(): JSX.Element {
 
                 </div>
             </div>
+            <div style={{position: "relative", height: "300px"}}>
+                <VerticalBarChart/>
+            </div>
             
-            <VerticalBarChart/>
         </div>
     )
 }

@@ -2,6 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import ProfilePic from '../assets/img/profile-pic.png'
+import NotifBell from '../assets/img/notif-bell.png'
+import SettingButton from '../assets/img/setting.png'
+
 
 import Logo from '../assets/img/logo.png'
 import '../assets/styles/Navbar.scss'
@@ -12,25 +16,14 @@ function NavBar(): JSX.Element {
                 <Container >
                     <Navbar.Brand href="#home"> 
                         <img className="logo" src={Logo} alt="" /> 
+                        
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
-                            Another action
-                        </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">
-                            Separated link
-                        </NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    </Navbar.Collapse>
+                    <div className='profile-items'>
+                        <div className='profile-item'> <img  className="icon-img" src={ProfilePic} alt="" />  </div>
+                        <div className='profile-item'> <span> Babatunde Samuel </span> </div>
+                        <div className='profile-item'> <img  className="icon-img" src={SettingButton} alt="" /> </div>
+                        <div className='profile-item'> <img  className="icon-img" src={NotifBell} alt="" /> </div>
+                    </div>
                 </Container>
             </Navbar>
         </div>

@@ -20,10 +20,10 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ value, maxValue, title, color
           height: '10px',
           borderRadius: '50%',
           backgroundColor: activeColor,
-          marginRight: '5px',
+          marginRight: '10px',
         }}
       />
-      <div style={{ marginRight: '10px', width: '40px' }}>{title}</div>
+      <div style={{ marginRight: '15px', width: '50px' }}>{title}</div>
       <div style={{ flex: 2, marginLeft: '50px' }}>
         <div
           style={{

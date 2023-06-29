@@ -3,29 +3,58 @@
     border: 2px solid #EDEFF2;
     border-radius: 10px ;
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    margin-top: 20px;
+    font-size: 15px;
     padding: 10px;
+    
 
     .sidebar-nav {
         list-style: none;
         padding: 0;
+        
     }
       
     .sidebar-item {
+        align-items: center;
         background-color: white;
-        border-radius: 5px;
-        min-height: 40px;
-        margin-bottom: 5px;
+        border-radius: 10px;
+        display: flex;
+        min-height: 60px;
+        margin-bottom: 10px;
         
     }
     
     .sidebar-link {
-        color:#7D8FB3;
+        
         text-decoration: none;
-        margin-left: 10px;
+        color:#7D8FB3;
+    }
+    .font-awesome-icon{
+        padding: 10px;
+    }
+    .icon{
+        font-size: 20px;
+        width: 50px;
+    }
+    .logout-sidebar-item {
+        margin-top: 90px;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        min-height: 60px;
+        margin-bottom: 10px;
+        
+    }
+    .active{
+        background-color: #F3723F;
+        color: white
     }
 
+    .logout{
+        width: 100%;
+        color: #F3723F;
+
+    }
     
   }
   

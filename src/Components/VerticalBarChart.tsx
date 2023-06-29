@@ -29,6 +29,7 @@ const VerticalBarChart: React.FC = () => {
   };
 
   const bar_options = {
+    responsive: true,
     maintainAspectRatio: false,
     scales: {
       x: {
@@ -57,7 +58,7 @@ const VerticalBarChart: React.FC = () => {
   
 
   return (
-    <div>
+    <div style={{ height: '100%' }}>
    
       <Bar data={data} options={bar_options} />
     </div>

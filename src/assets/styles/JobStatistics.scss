@@ -1,18 +1,20 @@
 .jobstatistics{
     background-color: white;
     border-radius: 20px;
-    margin-top: 10px;
-  
-    padding: 15px;
-
-   
+    margin-top: 15px;
+    padding: 20px;
 
     .title {
+        color: #1D1D41;
         display: grid;
         grid-template-columns: 1fr auto;
+        font-family: 'Gothic A1', sans-serif;
         font-size: 20px;
-      }
-      
+    }
+    .drop-down-year{
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+    }
     .left-element {
         align-self: center;
     }

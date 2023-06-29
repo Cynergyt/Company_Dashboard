@@ -1,16 +1,20 @@
 .candidates-by-gender{
     background-color: white;
     border-radius: 20px;
-    margin-top: 10px;
-    padding: 10px;
-    height: 180px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-top: 15px;
+    padding: 20px;
+    height: 207px;
     
-    .title{
+    .title {
+        color: #1D1D41;
+        grid-template-columns: 1fr auto;
+        font-family: 'Gothic A1', sans-serif;
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .doughnut-chart{
-        margin-top: -10px;
-        margin-left: -50px;
+        margin-top: -20px;
     }
 }

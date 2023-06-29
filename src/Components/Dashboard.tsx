@@ -22,7 +22,9 @@ function Dashboard(): JSX.Element {
                     
                     <Col>
                         <div className='greetings'>
-                            Welcome, Babatunde Samuel    
+                            <div className='greetings-content'> Welcome, Babatunde Samuel  </div>
+                            <div > <button className='post-job-button'> Post jobs </button></div>
+
                         </div>
                     
                         <Row >
@@ -61,13 +63,7 @@ function Dashboard(): JSX.Element {
                                 /> 
                             </Col>
                         </Row>
-                        
-                
-                         
-
-                        
-                    
-                        
+          
                              
                         <Row>
                             <Col lg={8}> 
@@ -75,9 +71,9 @@ function Dashboard(): JSX.Element {
                                 <Row> <Col> <JobStatistics/> </Col>  </Row>
                                 
                                 <Row> 
-                                    <Col> <CandidatesByGender/> </Col>
+                                    <Col lg={6}> <CandidatesByGender/> </Col>
                                     
-                                    <Col> <Acquisition/> </Col>
+                                    <Col lg={6}> <Acquisition/> </Col>
                                 </Row>
                             </Col>
                             <Col> <RecommendedCandidates/> </Col>

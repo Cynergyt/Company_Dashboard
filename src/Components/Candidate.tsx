@@ -10,11 +10,11 @@ interface CandidateProps {
 const Candidate: React.FC<CandidateProps> = ({ role, company, city, location }) => {
  
   return (
-    <div>
-        <div> {role} </div>
-        <div> {company} </div>
-        <div> {city} </div>
-        <div> {location} </div>
+    <div className='candidate-content'>
+        <div className='role'> {role} </div>
+        <div className='company'> {company} </div>
+        <div className='city'> {city} </div>
+        <div className='location'> {location} </div>
     </div>
   );
 };

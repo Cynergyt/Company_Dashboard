@@ -9,36 +9,36 @@
     height: 100%;
     
     .icon{
-        
-        width: 40px;
+        width: 20%;
+    }
 
+    .icon-img{
+        width: 100%;
     }
     .content{
         
         margin-left: 5px;
-        font-size: 12px;
-        width: 45%;
+        width: 50%;
     }
     .title{
-       
-        min-height: 30px;
-        font-size: 10px;
+        min-height: 50px;
+        font-size: 18px;
         font-weight: bold;
 
     }
     .number{
-        font-size: 15px;
+        font-size: 30px;
 
     }
     .seemore{
         
         color: #0D75BC;
-        font-size: 10px;
+        font-size: 14px;
     }
     .progress-bar{
         padding: 5px;
         margin-right: 0;
-        width: 60px;
+        width: 30%;
     }
     
 }

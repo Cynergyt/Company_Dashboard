@@ -4,16 +4,34 @@
     padding: 15px;
     border-radius: 20px;
     margin-top: 10px;
-    .title{
+    
+    .title {
+        color: #1D1D41;
+        grid-template-columns: 1fr auto;
+        font-family: 'Gothic A1', sans-serif;
         font-size: 20px;
     }
-    .recommended-candidates-item{
-        padding: 10px;
+    .recommended-candidates-item {
+        display: flex; /* Use flexbox */
+        padding: 20px;
         border: 1px solid rgb(201, 198, 198);
         border-radius: 5px;
-        margin-top: 10px;
-        font-size: 10px;
-        height: 100px
+        margin-top: 15px;
+        font-size: 15px;
+        height: 150px;
+      }
+      
+      .candidate-content {
+        width: fit-content;
+        flex-grow: 1; /* Allow the content to grow and take up remaining space */
+      }
+      
+      .icon-img {
+        width: fit-content;
+      }
+
+    .role{
+        font-size: 18px;
     }
     
 }

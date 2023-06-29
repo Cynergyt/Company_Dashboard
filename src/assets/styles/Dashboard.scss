@@ -1,7 +1,21 @@
 .dashboard{
     font-family: 'Mulish', sans-serif;
     background-color: #faf4f3;
-
-   
-    
+    .greetings{
+        display: flex; /* Use flexbox */
+        align-items: center;
+    }
+    .greetings-content{
+        font-size: 18px;
+        margin: 15px 0px 15px 0px;
+        flex-grow: 1;
+    }
+    .post-job-button{
+        padding: 10px 30px;
+        background-color: #F3723F;
+        border: 0px solid white;
+        border-radius: 10px;
+        color: white;
+        
+    }
 }

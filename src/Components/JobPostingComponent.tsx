@@ -19,7 +19,7 @@ const InfoComponent: React.FC<InfoComponentProps> = ({
         <div className='info-comp'>
           
             <div className='icon'>
-                <img  className="icon" src={AddDoc} alt="" /> 
+                <img  className="icon-img" src={AddDoc} alt="" /> 
             </div>
             
             <div className='content'>

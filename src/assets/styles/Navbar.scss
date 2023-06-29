@@ -1,6 +1,11 @@
 
 .nav-bar{
     background-color: white;
-   
-    
+    .profile-items{
+        display: flex;
+        align-items: center; 
+    }
+    .profile-item{
+        margin-right: 20px;
+    }    
 }
