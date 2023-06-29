@@ -1,7 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import ProfilePic from '../assets/img/profile-pic.png'
 import NotifBell from '../assets/img/notif-bell.png'
 import SettingButton from '../assets/img/setting.png'
