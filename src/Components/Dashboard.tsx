@@ -9,11 +9,13 @@ import InfoComponent from './JobPostingComponent';
 import JobStatistics from './JobStatistics';
 import CandidatesByGender from './CandidatesByGender';
 import Acquisition from './Aquisition';
+import RecommendedCandidates from './RecommendedCandidates'
+
 function Dashboard(): JSX.Element {
     return(
         <div className='dashboard'>
             <NavBar/>
-            <Container>
+            <Container fluid>
                 
                 <Row>
                     <Col lg={2}><Sidebar/></Col>
@@ -78,7 +80,7 @@ function Dashboard(): JSX.Element {
                                     <Col> <Acquisition/> </Col>
                                 </Row>
                             </Col>
-                            <Col> Recommended Candidates</Col>
+                            <Col> <RecommendedCandidates/> </Col>
                         </Row>
                     </Col>
                     

@@ -1,0 +1,19 @@
+.recommended-candidates{
+    
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    .title{
+        font-size: 20px;
+    }
+    .recommended-candidates-item{
+        padding: 10px;
+        border: 1px solid rgb(201, 198, 198);
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 10px;
+        height: 100px
+    }
+    
+}
