@@ -1,0 +1,22 @@
+.jobstatistics{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+  
+    padding: 15px;
+
+   
+
+    .title {
+        display: grid;
+        grid-template-columns: 1fr auto;
+      }
+      
+    .left-element {
+        align-self: center;
+    }
+    
+    .right-element {
+        align-self: end;
+    }
+}

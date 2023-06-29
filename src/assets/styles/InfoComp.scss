@@ -1,0 +1,44 @@
+.info-comp{
+
+    background-color: white;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    
+    .icon{
+        
+        width: 40px;
+
+    }
+    .content{
+        
+        margin-left: 5px;
+        font-size: 12px;
+        width: 45%;
+    }
+    .title{
+       
+        min-height: 30px;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+    .number{
+        font-size: 15px;
+
+    }
+    .seemore{
+        
+        color: #0D75BC;
+        font-size: 10px;
+    }
+    .progress-bar{
+        padding: 5px;
+        margin-right: 0;
+        width: 60px;
+    }
+    
+}
