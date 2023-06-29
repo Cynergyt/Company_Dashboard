@@ -21,11 +21,7 @@ const DoughnutChart: React.FC = () => {
     radius: '60%',
     maintainAspectRatio: false,
     
-    plugins: {
-      legend: {
-        position: 'right',
-      },
-    },
+   
   };
 
   return (

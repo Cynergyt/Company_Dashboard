@@ -30,7 +30,6 @@ const VerticalBarChart: React.FC = () => {
 
   const bar_options = {
     maintainAspectRatio: false,
-    indexAxis: 'x',
     scales: {
       x: {
         grid: {
@@ -46,13 +45,13 @@ const VerticalBarChart: React.FC = () => {
       
     },
 
-    plugins: {
-      legend: {
-        align: 'end',
-        display: true,
-      },
+    // plugins: {
+    //   legend: {
+    //     align: 'end
+        
+    //   },
       
-    },
+    // },
   };
 
   
