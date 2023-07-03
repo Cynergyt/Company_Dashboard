@@ -45,8 +45,8 @@ function NavBar({ isPhoneMode, toggleSidebar }: NavBarProps): JSX.Element {
                         
                     </Navbar.Brand>
                     <div className='profile-items'>
-                        <div className='profile-item'> <img  className="icon-img" src={ProfilePic} alt="" />  </div>
-                        <div className='profile-item'> <span> Babatunde Samuel </span> </div>
+                        <div className='profile-item'> <img  className="icon-img" src={ProfilePic} alt="" />  </div> 
+                        {!isPhoneMode && (<div className='profile-item'> <span> Babatunde Samuel </span> </div>  )}
                         <div className='profile-item'> <img  className="icon-img" src={SettingButton} alt="" /> </div>
                         <div className='profile-item notif-dropdown' onClick={toggleDropdown}> <img  className="icon-img" src={NotifBell} alt="" /> 
                         {isOpen && (

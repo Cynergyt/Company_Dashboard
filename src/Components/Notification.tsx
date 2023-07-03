@@ -8,6 +8,7 @@ interface NotificationProps {
 function Notification ({ content }: NotificationProps): JSX.Element {
     return(
         <div className="notification-comp">
+          
             <div className='notif-icon'><FontAwesomeIcon icon={faComment}/> </div> 
             <div className='content'> {content} </div>
         </div>
