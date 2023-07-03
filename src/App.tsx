@@ -2,7 +2,6 @@
 import Dashboard from './Components/Dashboard'
 import {
   BrowserRouter,
-  Link,
   Route,
   Routes,
 } from "react-router-dom";
