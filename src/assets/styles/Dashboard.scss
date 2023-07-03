@@ -16,6 +16,13 @@
         border: 0px solid white;
         border-radius: 10px;
         color: white;
-        
     }
+    .job-posting-comps{
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+          }
+    }
+    
+
+      
 }

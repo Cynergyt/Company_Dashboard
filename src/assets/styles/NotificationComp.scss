@@ -1,0 +1,21 @@
+.notification-comp{
+    width: 30vw;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    .notif-icon{
+        font-size: 30px;
+        margin: 20px
+    }
+
+
+}
+
+.notification-comp:hover{
+    background-color: #F3723F;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

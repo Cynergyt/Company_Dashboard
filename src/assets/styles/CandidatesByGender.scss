@@ -11,10 +11,19 @@
         grid-template-columns: 1fr auto;
         font-family: 'Gothic A1', sans-serif;
         font-size: 20px;
-        margin-bottom: 20px;
+    }
+
+    .gender-content{
+        display: flex;
+        align-items: center;
     }
 
     .doughnut-chart{
-        margin-top: -20px;
+        width: 60%;
+    }
+    
+    .legend{
+        display: flex;
+        align-items: center;
     }
 }

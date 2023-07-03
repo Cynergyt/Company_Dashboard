@@ -21,7 +21,10 @@
     "react-chartjs-2": "^5.2.0",
     "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
-    "reactjs-percentage-circle": "^1.0.0"
+    "react-router-dom": "^6.14.1",
+    "reactjs-percentage-circle": "^1.0.0",
+    "styled-components": "^6.0.2",
+    "switch": "0.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

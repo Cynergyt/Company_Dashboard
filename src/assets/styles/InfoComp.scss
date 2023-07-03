@@ -1,12 +1,12 @@
 .info-comp{
-
     background-color: white;
     font-family: 'Mulish', sans-serif;
     padding: 10px;
-    border: 1px solid orange;
+    border: 1px solid #ffbea4;
     border-radius: 10px;
     display: flex;
     height: 100%;
+
     
     .icon{
         width: 20%;
@@ -22,12 +22,12 @@
     }
     .title{
         min-height: 50px;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: bold;
 
     }
     .number{
-        font-size: 30px;
+        font-size: 20px;
 
     }
     .seemore{

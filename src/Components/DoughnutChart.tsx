@@ -16,13 +16,13 @@ const data = {
 const options = {
   rotation: 180,
   cutout: '80%',
-  radius: '60%',
+  radius: '70%',
   maintainAspectRatio: false,
   
   plugins: {
-    // legend: {
-    //   position: 'right',
-    // },
+    legend: {
+      display: false
+    },
   },
 };
 

@@ -46,13 +46,13 @@ const VerticalBarChart: React.FC = () => {
       
     },
 
-    // plugins: {
-    //   legend: {
-    //     align: 'end
+    plugins: {
+      legend: {
+        display: false
         
-    //   },
+      },
       
-    // },
+    },
   };
 
   

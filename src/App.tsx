@@ -1,14 +1,23 @@
 
 import Dashboard from './Components/Dashboard'
+import {
+  BrowserRouter,
+  Link,
+  Route,
+  Routes,
+} from "react-router-dom";
 import './App.css'
 
-function App() {
 
+const App: React.FC = () => {
   return (
-    <div>
-      <Dashboard/>
-    </div>
-  )
-}
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Dashboard />} />
+    
+    </Routes>
+  </BrowserRouter>
+  );
+};
 
-export default App
+export default App;

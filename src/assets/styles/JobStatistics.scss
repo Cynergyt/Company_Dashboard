@@ -10,16 +10,26 @@
         grid-template-columns: 1fr auto;
         font-family: 'Gothic A1', sans-serif;
         font-size: 20px;
+        margin-bottom: 30px;
     }
     .drop-down-year{
         font-family: 'Mulish', sans-serif;
-        font-size: 18px;
+        font-size: 15px;
+        border-radius: 5px;
     }
     .left-element {
         align-self: center;
+        
     }
     
     .right-element {
         align-self: end;
+        display: flex;
+        align-items: center;
+
+    }
+    .text{
+        font-size: 14px;
+        margin-right: 50px;
     }
 }
